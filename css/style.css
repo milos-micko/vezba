@@ -917,6 +917,68 @@ span.fa-play{
 .bar-violet{
 	background: darkviolet;
 }
+.magazin{
+	overflow: hidden;
+	background: white;
+}
+.magazin .image-kind-news{
+	background: darkviolet;
+}
+.three-news img{
+	max-width: 100%;
+}
+.three-news .news-picture{
+	height: auto;
+}
+.three-news .col-4{
+	padding: 0 .5em;
+	margin: 1em 0;
+}
+a.hover-violet:hover{
+	color: darkviolet;
+	text-decoration: none;
+}
+.ml-none{
+	margin-left: 0;
+}
+.magazin .list-style-square{
+	margin-left: 0;
+	list-style: square;
+	list-style-position: iside;
+	padding-left: 1.5em;
+}
+.border-botom-silver{
+	border-bottom: 1px solid silver;
+	clear: both;
+	margin: 0 1.2em;
+}
+.list-title-special-template{
+	padding: .5em 0;
+	overflow: auto;
+	clear: both;
+	margin: 0 .5em;
+}
+.list-title-special-template li{
+	float: left;
+	font-size: 13px;
+	text-transform: capitalize;
+}
+.list-title-special-template li a{
+	padding: 0 1em;
+	border-right: 1px solid silver;
+}
+.list-title-special-template li:nth-child(6) a{
+	border-right: none;
+}
+.violet-font-color{
+	color: darkviolet;
+}
+a.violet-font-color:hover{
+	color: #660066;
+	text-decoration: none;
+}
+
+
 
 
 
