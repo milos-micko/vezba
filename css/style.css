@@ -68,6 +68,9 @@ ul{
 .mt-1{
 	margin-top: 1em;
 }
+.mt{
+	margin-top: .5em;
+}
 .mtb{
 	margin: 1em 0;
 }
@@ -454,6 +457,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* oldIE 😉 */
 .orange-hover:hover{
 	color: #FF6600;
 	text-decoration: none;
+	cursor: pointer;
 }
 
 .arrow-left-blue{
@@ -1028,6 +1032,52 @@ a.violet-font-color:hover{
 .dark-orange-hover:hover{
 	color: #b25103;
 	text-decoration: none;
+}
+.frame-news{
+	padding: 0 1em;
+}
+.photo-galery  .news-picture-dimensions{
+	height: 300px;
+}
+
+.photo-galery  .news-picture-dimensions img{
+	height: 100%;
+	max-width: 100%;
+}
+/*ASIDE-CONTENT*/
+.aside-content-news{
+	margin-top: .5em;
+	padding-top: .5em;
+	
+}
+.aside-content-news .content-news{
+	margin: 0;
+}
+.aside-content-news .content-news .frame{
+	padding: 1em;
+}
+.aside-content-news .small-icons{
+	font-size: .625em;
+}
+.aside-content-news .cloud-icon{
+	vertical-align: -5px;
+}
+
+.aside-content-news .small-icons .number-count{
+	font-size: 11px;
+	display: inline-block;
+}
+.aside-content-news .small-icons .facebook-number-count{
+	color: white;
+}
+.aside-content-news .small-icons .fa-facebook-square{
+	color: blue;
+	background: white;
+	font-size: 11px;
+}
+.aside-content-news .small-icons .facebook-number{
+	color: white;
+	font-size: 11px;
 }
 
 
