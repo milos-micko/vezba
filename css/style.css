@@ -31,6 +31,9 @@ ul{
 .right{
 	float: right;
 }
+.pl-1{
+	padding-left: 1em;
+}
 .pl{
 	padding: 0 .5em;
 }
@@ -56,10 +59,15 @@ ul{
 .mlr{
 	margin: 0 .5em;
 }
+.mb-1{
+	margin-bottom: 1em;
+}
 .mb{
 	margin-bottom: .5em;
 }
-
+.mt-1{
+	margin-top: 1em;
+}
 .mtb{
 	margin: 1em 0;
 }
@@ -975,6 +983,22 @@ a.hover-violet:hover{
 }
 a.violet-font-color:hover{
 	color: #660066;
+	text-decoration: none;
+}
+.content-news{
+	margin: 1.5em 0;
+	background: white;
+	overflow: hidden;
+}
+.content-news .news-picture{
+	height: auto;
+}
+.title{
+	font-size: 18px;
+	font-weight: normal;
+}
+.title a:hover{
+	color: orange;
 	text-decoration: none;
 }
 
